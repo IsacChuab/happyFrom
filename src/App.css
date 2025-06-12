@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+
+#root {
+  margin: 0;
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #f8d0d8, #fce4ec);
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0 0 16px 16px;
+  transition: opacity 2s ease-in-out;
+  opacity: 1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.logo.fade-out {
+  opacity: 0;
+}
+
+.title,
+h1 {
+  font-family: "Cinzel";
+  line-height: 0.5;
+}
+
+.poem {
+  font-family: Vollkorn;
+  padding: 1em;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
